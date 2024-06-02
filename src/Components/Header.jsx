@@ -11,7 +11,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 const Header = () => {
 
-const [toggleMenu, setToggleMenu] = useState(true)
+const [toggleMenu, setToggleMenu] = useState(false)
 
 function handleMenu() {
     setToggleMenu(!toggleMenu)

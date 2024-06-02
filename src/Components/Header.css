@@ -79,16 +79,17 @@ ul{
         left: -100%;
         top: 0;
         z-index: 10;
-        transition: ease-in-out 0.1s;
-        -webkit-transition: ease-in-out 0.1s;
-        -moz-transition: ease-in-out 0.1s;
-        -ms-transition: ease-in-out 0.1s;
-        -o-transition: ease-in-out 0.1s;
+        transition: 0.1s;
+        -webkit-transition: 0.1s;
+        -moz-transition: 0.1s;
+        -ms-transition: 0.1s;
+        -o-transition: 0.1s;
 }
 
   
 #navbar-container.active {
     left: 0;
+    transition: 0.1s;
   }
         
     
