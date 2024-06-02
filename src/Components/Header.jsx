@@ -11,7 +11,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 const Header = () => {
 
-const [toggleMenu, setToggleMenu] = useState(false)
+const [toggleMenu, setToggleMenu] = useState(true)
 
 function handleMenu() {
     setToggleMenu(!toggleMenu)
@@ -25,7 +25,7 @@ console.log(toggleMenu)
     <>
       <nav className='navbar'>
       <div><h2>Bridge</h2></div>
-        <div className={'navbar-container'} style={{ left: toggleMenu ? '0' : '-100%' }}>
+        <div id='navbar-container' className={ toggleMenu ? 'active' : 'navbar-container'}>
           
           <ul>
             <li>Home</li>

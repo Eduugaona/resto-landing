@@ -8,11 +8,14 @@
     color: white;
 }
 
+
+
+
 .toggle-icon{
     font-size: 25px;
 }
 
-.navbar-container{
+#navbar-container{
   max-width: 1600px;
   top: 0;
   z-index: 10;
@@ -65,25 +68,31 @@ ul{
         
     }
 
-    .navbar-container{
-        width: 80%;
+    #navbar-container{
+        width: 70%;
         color:black;
         height: 100%;
         display: flex;
         flex-direction: column;
         background-color: rgb(241, 235, 235);
         position: absolute;
+        left: -100%;
         top: 0;
         z-index: 10;
-        transition: ease-in-out 0.2s;
-        -webkit-transition: ease-in-out 0.2s;
-        -moz-transition: ease-in-out 0.2s;
-        -ms-transition: ease-in-out 0.2s;
-        -o-transition: ease-in-out 0.2s;
+        transition: ease-in-out 0.1s;
+        -webkit-transition: ease-in-out 0.1s;
+        -moz-transition: ease-in-out 0.1s;
+        -ms-transition: ease-in-out 0.1s;
+        -o-transition: ease-in-out 0.1s;
 }
+
+  
+#navbar-container.active {
+    left: 0;
+  }
         
     
-    .navbar-container ul{
+    #navbar-container ul{
         flex-direction: column;
         width: 100%;
         justify-content: center;
